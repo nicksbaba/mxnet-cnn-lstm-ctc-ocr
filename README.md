@@ -12,6 +12,7 @@ the main difference is that I use resnet as the cnn part in the architecture.
 # prerequisites
 1. you should follow steps in official mxnet example/warp-ctc https://github.com/dmlc/mxnet/tree/master/example/warpctc
    to make sure you install warp-ctc correctly and recompile mxnet with warp-ctc plug-in
+   (another place for the example: https://github.com/Xilinx/mxnet/tree/master/example/warpctc)
 2. download ICDAR2013 cropped word dataset http://rrc.cvc.uab.es/?ch=2&com=downloads and put it in the right fold 
    which should be consistant with the path in text_deep_ocr_bucketing.py
 ```
